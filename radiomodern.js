@@ -1,8 +1,7 @@
     const Discord = require("discord.js");
     const bot = new Discord.Client({ autoReconnect: true });
     const request = require("request");
-    var BOT_TOKEN = "NDI4NTU1NDExODIyNzM5NDU2.DZ0zvw.L1XOIopCPgJA-cGRl3jBUmqEkBE";
-    bot.login(BOT_TOKEN);
+    bot.login(process.env.TOKEN);
     bot.on('ready', () => {
         setTimeout(audience, 60000);
     
