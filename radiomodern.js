@@ -9,7 +9,7 @@ bot.on("ready", () => {
     bot.user.setStatus("online")
     bot.user.setActivity(".create [name]")
     console.log(separation)
-    console.log(prefixLog + " Bot créé par Ilian ! <3")
+    console.log(prefixLog + " Bot créé par RisedSky ! <3")
     console.log(prefixLog + " Bot prêt")
     console.log(separation)
 })
